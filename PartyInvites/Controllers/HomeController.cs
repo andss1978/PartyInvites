@@ -10,10 +10,16 @@ namespace PartyInvites.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public ViewResult Index()
         {
-            return "Hello World";
+            return View("MyView");
         }
+
+        //public string Index()
+        //{
+        //    return "Hello World";
+        //}
+
         //public IActionResult Index()
         //{
         //    return View();
