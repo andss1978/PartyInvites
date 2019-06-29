@@ -1,1 +1,1 @@
-first app
+first app +s
